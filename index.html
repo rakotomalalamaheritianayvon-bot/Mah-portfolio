@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mah Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/abd8252d4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="contenaire">
+            <nav>
+                <img src="img/logol.png" class="logo">
+                <img src="img/logo.png" class="logo" style="margin-left: -340px;">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developpeur Web/App</p>
+                <h1>Hi, I'm <span>Maheritiana Yvon</span><br> From Madagascar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------ABOUT----------- -->
+    
+    <div id="about">
+        <div class="contenaire">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/mah_ui.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Développeur web et applications passionné, je maîtrise aussi bien le Front-end 
+                       que le Back-end, ce qui me permet de concevoir des solutions complètes et performantes.
+                        Curieux et rigoureux, j’accorde une attention particulière à l’expérience utilisateur, 
+                        à la qualité du code et à la performance des projets. Fort d’une polyvalence technique, 
+                        je suis capable de passer de la conception d’interfaces modernes et ergonomiques 
+                        à l’implémentation de systèmes robustes et sécurisés côté serveur. Mon objectif est de 
+                        transformer les idées en produits digitaux efficaces, esthétiques et évolutifs..</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Maîtrise des langages de programmation</span><br>Connaissance approfondie des outils et technologies adaptés 
+                                <br>(ex. JavaScript, Python, PHP).</li>
+                            <li><span>Pensée logique et algorithmique</span><br>Savoir structurer et optimiser le code pour qu’il soit clair, efficace et évolutif.</li>
+                            <li><span>Résolution de problèmes</span><br>Capacité à analyser une situation, identifier les causes et trouver des solutions efficaces. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Direction Des Domaine et Propriete Fonciere</li>
+                            <li><span>2022 - 2023</span><br>Chef de Projet Team Mada</li>
+                            <li><span>2023-2024</span><br>Developpement Django ECommenrce</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025</span><br>Data Analyste at IFT Mada</li>
+                            <li><span>2024</span><br>Developpement Web/app Mobil/iOS</li>
+                            <li><span>2023</span><br>Disign Training  at IFT Mada</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------SERVICES-------------- -->
+ <div id="services">
+    <div class="contenaire">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web/App Design</h2>
+                <p>Création d’interfaces modernes, ergonomiques et attrayantes 
+                    pour offrir une expérience utilisateur fluide et intuitive..</p>
+                <a href="#contact">Information</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Développement Web/App</h2>
+                <p>Conception et programmation de sites et applications, du Front-end visuel au 
+                    Back-end fonctionnel</p>
+                <a href="#contact">Information</a>
+            </div>
+             <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Gestion de base de données  </h2>
+                <p> Organisation, stockage et sécurisation des données pour garantir leur accessibilité 
+                    et leur performance.</p>
+                <a href="#contact">Information</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- ----------------Portfolio--------------- -->
+ <div id="portfolio">
+    <div class="contenaire">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/sliderg.jpg" alt="">
+                <div class="layer">
+                    <h3>Travail</h3>
+                    <p>En ce momant, Il n'y a pas de Projet</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/moon-4919501_640.jpg" alt="">
+                <div class="layer">
+                    <h3>Travail</h3>
+                    <p>En ce momant, Il n'y a pas de Projet </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/coding-1853305_640.jpg" alt="">
+                <div class="layer">
+                    <h3>Travail</h3>
+                    <p>En ce momant, Il n'y a pas de Projet </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more </a>
+    </div>
+ </div>
+<!-- --------------------Contact--------------- -->
+<div id="contact">
+    <div class="contenaire">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rakotomalalamaheritianayvon@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+261 38 14 947 12</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/mah.erii.yvon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="# "><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/maherifah?igsh=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/maheritiana-yvon-064219276/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BGaw3xHR%2BQam2wVSPsnYATg%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/CV_Maheri.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form id="contactForm">
+                    <input type="text" name="Name" placeholder="Your Name" required="">
+                    <input type="email" name="Email" placeholder="exemple@gmail.com" required>
+                    <textarea name="Message"row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+         <p>-----------Mah:: <i class="fa-solid fa-heart"></i><div class="date-heure" id="dateHeure"></div> </p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+ <script>
+        function afficherDateHeure() {
+            const jours = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+            const maintenant = new Date();
+
+            const jourNom = jours[maintenant.getDay()];
+            const jour = String(maintenant.getDate()).padStart(2, '0');
+            const mois = String(maintenant.getMonth() + 1).padStart(2, '0');
+            const annee = maintenant.getFullYear();
+
+            const heures = String(maintenant.getHours()).padStart(2, '0');
+            const minutes = String(maintenant.getMinutes()).padStart(2, '0');
+            const secondes = String(maintenant.getSeconds()).padStart(2, '0');
+
+            document.getElementById("dateHeure").textContent =
+                `${jourNom} ${jour}/${mois}/${annee} - ${heures}:${minutes}:${secondes}`;
+        }
+
+        // Met à jour l'affichage toutes les secondes
+        setInterval(afficherDateHeure, 1000);
+
+        // Affiche immédiatement au chargement
+        afficherDateHeure();
+    </script>
+
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    fetch("https://script.google.com/macros/s/AKfycbytF6_YsQSlmqBwnr84TMov6fPK5kKrtsb5lxvhotN4ndrky7cl4ovXxPsANr4nq1bFhQ/exec", {
+      method: "POST",
+      body: JSON.stringify({
+        name: document.getElementById("Name").value,
+        email: document.getElementById("Email").value,
+        message: document.getElementById("Message").value
+      })
+    })
+    .then(res => res.json())
+    .then(data => {
+    if (data.status === "success") {
+      alert("Message envoyé !");
+    } else {
+      alert("Erreur: " + data.message);
+    }
+  })
+  .catch(err => alert("Erreur réseau : " + err));
+  });
+</script>
+
+
+
+</body>
+</html>
